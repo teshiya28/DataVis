@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Details: Injuries</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="injuries_details.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="comparison_with_deathrate.html">Death Rate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Country Details: <span id="countryName"></span></h1>
+        <div class="info-box">
+            <label for="yearSelect">Select Year:</label>
+            <select id="yearSelect"></select>
+        </div>
+        <div id="line-chart"></div>
+    </div>
+</body>
+</html>

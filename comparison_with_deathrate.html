@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Comparison with Death Rate</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="comparison_with_deathrate.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="comparison_with_deathrate.html">Death Rate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="controls">
+            <div class="dropdown-container">
+                <label for="countrySelect">Select Country:</label>
+                <select id="countrySelect">
+                    <option value="">--Select Country--</option>
+                </select>
+            </div>
+        </div>
+        <div id="bar-chart"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health Status: Injuries</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="injuries_script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="comparison_with_deathrate.html">Death Rate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="info-box">
+            <br><br><br><br>
+            <h1>Injuries In Road Traffic Accidents</h1>
+            <h2>Year Range: <span id="yearRange"></span></h2>
+            <h2>Total Count: <span id="totalCount"></span></h2>
+            <p>Select Highlighted countries to view details</p>
+        </div>
+        <div id="map-container">
+            <svg></svg>
+        </div>
+    </div>
+
+</body>
+</html>
